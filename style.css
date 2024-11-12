@@ -1,0 +1,262 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+.head{
+    position: fixed;    
+    top: 0;               
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: brown;
+}
+.head1{
+    display: flex;
+    text-align: center;
+    color: orange;
+    padding: 10px;
+}
+.head1:hover{
+    color: #fff;
+}
+.navbar a{
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.7s ease;
+}
+.navbar a:hover{
+    color: orange;
+    transform: scale(1.1);
+}
+#home{
+    background-color: lightgray;
+}
+.image1{
+    border-radius: 30px;
+    margin-left: 900px;
+    margin-top: 130px;
+}
+.head2{
+    margin-left: 200px;
+    margin-top: -180px;
+    color: #3a3a3a;
+    display: flex;
+    font-size: 60px;
+}
+.par1{
+    width: 500px;
+    margin-left: 200px;
+    font-size: 20px;
+    color: darkred;
+    font-weight: 700;
+}
+.btn1{
+    width: 120px;
+    height: 30px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #333;
+    margin-left: 700px;
+    margin-top: 30px;
+    transition: 0.7s ease;
+}
+.btn1:hover{
+    transform: scale(1.1);
+}
+#aboutus{
+    margin-top: 250px;
+}
+.head3{
+    color: darkred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.par2{
+    font-size: 20px;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 50px;
+    color: gray;
+    font-weight: 700;
+    border: 3px solid #333;
+    border-width: 15px;
+    justify-content: space-around;
+}
+
+.head4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkred;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 80px;
+}
+.card1{
+    border: 4px solid black;
+    border-radius: 10px;
+    transition: 0.7s ease;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 300px;
+}
+.card1:hover{
+    transform: scale(1.1);
+}
+.par3{
+    margin-left: 100px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.image2{
+    width: 200px;
+    border-radius: 100px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.par4{
+    margin-left: 120px;
+    color: darkred;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.card2{
+    border: 4px solid black;
+    border-radius: 10px;
+    transition: 0.7s ease;
+    margin-left: 500px;
+    margin-top: -390px;
+    width: 300px;
+}
+.card2:hover{
+    transform: scale(1.1);
+}
+.par5{
+    margin-left: 60px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.image3{
+    width: 200px;
+    border-radius: 100px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.par6{
+    margin-left: 120px;
+    color: darkred;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.card3{
+    border: 4px solid black;
+    border-radius: 10px;
+    transition: 0.7s ease;
+    margin-left: 900px;
+    margin-top: -390px;
+    width: 300px;
+}
+.card3:hover{
+    transform: scale(1.1);
+}
+.par7{
+    margin-left: 60px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.image4{
+    width: 200px;
+    border-radius: 100px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.par8{
+    margin-left: 120px;
+    color: darkred;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.head5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: darkred;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+#testimonials{
+    margin-top: 127px;
+}
+.par7{
+    color: red;
+    text-decoration: underline;
+}
+.test1{
+    border: 2px solid darkgray;
+    border-radius: 15px;
+    width: 900px;
+    
+}
+.par8{
+    padding-right: 100px;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center
+}
+.test2{
+    border: 2px solid darkgray;
+    border-radius: 15px;
+    width: 900px;
+    margin-top: 30px;
+}
+.par9{
+    padding-right: 100px;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+}
+.test3{
+    border: 2px solid darkgray;
+    border-radius: 15px;
+    width: 900px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.par10{
+    padding-right: 100px;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+}
+#contact{
+    background-color: burlywood;
+    text-align: center;
+    margin-top: 50px;
+}
+.par11{
+    font-size: 20px;
+    font-weight: 600;
+}
+.par12{
+    font-size: 20px;
+    font-weight: 600;
+}
